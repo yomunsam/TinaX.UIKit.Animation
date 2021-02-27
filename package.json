@@ -1,0 +1,26 @@
+{
+  "name": "io.nekonya.tinax.uikit.animation",
+  "version": "6.6.0",
+  "displayName": "TinaX.UIKit.Animation",
+  "description": "UIKit Animation",
+  "unity": "2019.4",
+  "keywords": [
+    "TinaX",
+    "TinaX Framework",
+    "UI",
+    "UIKit",
+    "UGUI",
+    "UI Animation"
+  ],
+  "author": {
+    "name": "yomunsam",
+    "email": "yomunsam@nekonya.io",
+    "url": "https://yomunchan.moe"
+  },
+  "type": "library",
+  "license":"MIT",
+  "dependencies": {
+    "io.nekonya.tinax.uikit":"6.6.13",
+    "io.nekonya.tinax.tween":"6.6.0"
+  }
+}
