@@ -1,10 +1,12 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using TinaX.Tween.Components;
+using TinaX.UIKit.Animation.Const;
 using UnityEngine;
 
 namespace TinaX.UIKit.Animation
 {
+    [AddComponentMenu(UIAniConst.ComponentMenuBasePath + "UI Page Animation")]
     [RequireComponent(typeof(UIPage))]
     public class UIPageAnimationComponents : MonoBehaviour
     {
@@ -62,7 +64,7 @@ namespace TinaX.UIKit.Animation
 
         protected virtual void OnCloseUIEvent(float destroyDelay)
         {
-            Debug.Log("关闭UI事件到了，延迟:" + destroyDelay);
+            //Debug.Log("[UI Page Ani]关闭UI事件到了，延迟:" + destroyDelay);
             if(OnUIClose != null)
             {
                 if (m_CurrentTween != null && m_CurrentTween != OnUIClose)
@@ -75,6 +77,7 @@ namespace TinaX.UIKit.Animation
                     {
                         OnUIClose.OnFinish += OnTweenFinishOrStop;
                         OnUIClose.OnStop += OnTweenFinishOrStop;
+                        //Debug.Log("[UI Page Ani]开始播动画");
                         OnUIClose.BeginPlay();
                     }
                 }
@@ -83,7 +86,7 @@ namespace TinaX.UIKit.Animation
 
         protected virtual void OnDestoryUIEvent()
         {
-            Debug.Log("正儿八经要销毁UI了现在");
+            //Debug.Log("正儿八经要销毁UI了现在");
         }
 
 
