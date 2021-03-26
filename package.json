@@ -20,7 +20,7 @@
   "type": "library",
   "license":"MIT",
   "dependencies": {
-    "io.nekonya.tinax.uikit":"6.6.13",
-    "io.nekonya.tinax.tween":"6.6.0"
+    "io.nekonya.tinax.uikit":"6.6.15",
+    "io.nekonya.tinax.tween":"6.6.1"
   }
 }

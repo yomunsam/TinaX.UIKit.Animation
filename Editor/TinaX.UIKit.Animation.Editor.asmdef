@@ -1,0 +1,21 @@
+{
+    "name": "TinaX.UIKit.Animation.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a0f9311ea9e54f441bd181ffb0f8113d",
+        "GUID:50eb57b1f8b7ed54d919c301610d7156",
+        "GUID:0e9d636da9bdab3418012361a80a3b5f",
+        "GUID:eb0b36a1eab17c54a93dfa5bf816d363"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
