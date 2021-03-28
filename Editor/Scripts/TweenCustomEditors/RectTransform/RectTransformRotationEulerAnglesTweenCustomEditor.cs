@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using TinaXEditor.Tween.CustomEditors;
-using UnityEngine;
-using UnityEditor;
 using TinaX.UIKit.Animation;
+using TinaXEditor.Tween.CustomEditors;
 using TinaXEditor.Utils;
+using UnityEditor;
+using UnityEngine;
 
 namespace TinaXEditor.UIKit.Animation.CustomEditors
 {

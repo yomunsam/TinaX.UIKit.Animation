@@ -1,6 +1,6 @@
 {
   "name": "io.nekonya.tinax.uikit.animation",
-  "version": "6.6.0",
+  "version": "6.6.1",
   "displayName": "TinaX.UIKit.Animation",
   "description": "UIKit Animation",
   "unity": "2019.4",
@@ -20,7 +20,7 @@
   "type": "library",
   "license":"MIT",
   "dependencies": {
-    "io.nekonya.tinax.uikit":"6.6.15",
+    "io.nekonya.tinax.uikit":"6.6.17",
     "io.nekonya.tinax.tween":"6.6.1"
   }
 }
