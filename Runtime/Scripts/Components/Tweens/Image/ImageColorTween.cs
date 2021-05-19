@@ -112,6 +112,7 @@ namespace TinaX.UIKit.Animation
             }
             else
             {
+                this.TweenRxDisposable = null;
                 this.Finish();
             }
         }
